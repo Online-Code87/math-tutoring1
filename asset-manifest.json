@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/math-tutoring1/static/css/main.30e0d134.css",
+    "main.js": "/math-tutoring1/static/js/main.b878f14a.js",
+    "static/js/453.acca0757.chunk.js": "/math-tutoring1/static/js/453.acca0757.chunk.js",
+    "static/media/MathSoftwareCard.jpg": "/math-tutoring1/static/media/MathSoftwareCard.3f2821c1e3eea67fb262.jpg",
+    "static/media/BannerImg.png": "/math-tutoring1/static/media/BannerImg.d4dffb9a9b66b9c1613d.png",
+    "static/media/CodingCard.jpg": "/math-tutoring1/static/media/CodingCard.a7dec050f5673e129859.jpg",
+    "static/media/ContactUs.jpeg": "/math-tutoring1/static/media/ContactUs.12540a758b305d116d45.jpeg",
+    "static/media/WDcard.jpg": "/math-tutoring1/static/media/WDcard.94a52751a7d2b0e868ff.jpg",
+    "static/media/CentraNo2-Book.ttf": "/math-tutoring1/static/media/CentraNo2-Book.72c0fe58795586249b47.ttf",
+    "static/media/telegramIcon.png": "/math-tutoring1/static/media/telegramIcon.f315cf0e7518acca5af5.png",
+    "static/media/CentraNo2-Medium.ttf": "/math-tutoring1/static/media/CentraNo2-Medium.54d43c63229859fe26d2.ttf",
+    "static/media/CentraNo2-Bold.ttf": "/math-tutoring1/static/media/CentraNo2-Bold.b61fc644acf0c61b7549.ttf",
+    "static/media/revicons.eot": "/math-tutoring1/static/media/revicons.a77de540a38981833f9e.eot",
+    "static/media/revicons.ttf": "/math-tutoring1/static/media/revicons.57fd05d4ae650374c8de.ttf",
+    "static/media/revicons.woff": "/math-tutoring1/static/media/revicons.e8746a624ed098489406.woff",
+    "index.html": "/math-tutoring1/index.html",
+    "main.30e0d134.css.map": "/math-tutoring1/static/css/main.30e0d134.css.map",
+    "main.b878f14a.js.map": "/math-tutoring1/static/js/main.b878f14a.js.map",
+    "453.acca0757.chunk.js.map": "/math-tutoring1/static/js/453.acca0757.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.30e0d134.css",
+    "static/js/main.b878f14a.js"
+  ]
+}
