@@ -488,12 +488,12 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   justify-content: center;
   margin-left: 10px;
   margin-right: 10px;
-  border-radius: 30px;
+  border-radius: 20px;
   color: #e9efed !important;
   text-emphasis-color: #033123;
   overflow:visible;
   align-items: center;
-  max-width: 28%;
+  max-width: 150px;
 }
 
 .nav-item:active {
