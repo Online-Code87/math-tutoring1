@@ -499,7 +499,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .nav-item:active {
     border: 2px solid #036922 !important;
     font-weight: bold !important;
-    border-radius: 30px;
+    border-radius: 10px;
     background: #0f732d;
     color: #e9efed !important;
     background-color: green;
