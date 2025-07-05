@@ -44,7 +44,7 @@ const MathTutoring = () => {
               <h4>Topics Covered:</h4>
             </div>
             <Tab.Container  defaultActiveKey='first'>
-              <Nav variant="" justify className='nav-pills mb-5 justify-content-center align-items-center flex flex-col' id='pills-tab'>
+              <Nav variant="" className='nav nav-pills nav-fill mb-5 justify-content-center align-items-center flex flex-col flex-sm-row' id='pills-tab'>
                 <Nav.Item  variant='success'>
                   <Nav.Link eventKey="first">High School</Nav.Link>
                 </Nav.Item>
