@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/math-tutoring1/static/css/main.c0d7791d.css",
+    "main.css": "/math-tutoring1/static/css/main.a0846542.css",
     "main.js": "/math-tutoring1/static/js/main.097250cc.js",
     "static/js/453.acca0757.chunk.js": "/math-tutoring1/static/js/453.acca0757.chunk.js",
     "static/media/MathSoftwareCard.jpg": "/math-tutoring1/static/media/MathSoftwareCard.3f2821c1e3eea67fb262.jpg",
@@ -16,12 +16,12 @@
     "static/media/revicons.ttf": "/math-tutoring1/static/media/revicons.57fd05d4ae650374c8de.ttf",
     "static/media/revicons.woff": "/math-tutoring1/static/media/revicons.e8746a624ed098489406.woff",
     "index.html": "/math-tutoring1/index.html",
-    "main.c0d7791d.css.map": "/math-tutoring1/static/css/main.c0d7791d.css.map",
+    "main.a0846542.css.map": "/math-tutoring1/static/css/main.a0846542.css.map",
     "main.097250cc.js.map": "/math-tutoring1/static/js/main.097250cc.js.map",
     "453.acca0757.chunk.js.map": "/math-tutoring1/static/js/453.acca0757.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c0d7791d.css",
+    "static/css/main.a0846542.css",
     "static/js/main.097250cc.js"
   ]
 }
