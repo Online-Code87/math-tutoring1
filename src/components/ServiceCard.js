@@ -7,7 +7,7 @@ const ServiceCard = ({ImgUrl, title, description}) => {
     <Card >
       <Card.Img src={ImgUrl} variant='top' alt='service image'/>
       <Card.Body>
-        <Card.Title >{title}</Card.Title>
+        <Card.Title id={title}>{title}</Card.Title>
         <Card.Text >{description}</Card.Text>
       </Card.Body>
     </Card>

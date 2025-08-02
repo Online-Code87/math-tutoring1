@@ -33,7 +33,7 @@ const MathTutoring = () => {
         <Row>
           <Col >
             <div className='justify-content-left'>
-              <h1> Math Tutoring</h1>
+              <h1 id='maths-tutoring'> Math Tutoring</h1>
               <h4> My Tutoring Approach:</h4>
               <ul >
                 <li key="1">I teach online via platforms such as Zoom, Google Meet, and alike (or other platforms suggested by the student). </li>
@@ -46,16 +46,16 @@ const MathTutoring = () => {
             <Tab.Container  defaultActiveKey='first'>
               <Nav variant="" className='nav nav-pills nav-fill mb-5 justify-content-center align-items-center flex flex-col flex-sm-row' id='pills-tab'>
                 <Nav.Item  variant='success'>
-                  <Nav.Link eventKey="first">High School</Nav.Link>
+                  <Nav.Link eventKey="first" id='high-school-math'>High School</Nav.Link>
                 </Nav.Item>
                 <Nav.Item >
-                  <Nav.Link eventKey="second"> Undergraduate</Nav.Link>
+                  <Nav.Link eventKey="second" id='college-math-tutoring'> Undergraduate</Nav.Link>
                 </Nav.Item>
                 <Nav.Item >
-                  <Nav.Link eventKey="third">Graduate</Nav.Link>
+                  <Nav.Link eventKey="third" id='advanced-math-tutor'>Graduate</Nav.Link>
                 </Nav.Item>
                 <Nav.Item >
-                  <Nav.Link eventKey="fourth" >Postgraduate</Nav.Link>
+                  <Nav.Link eventKey="fourth" id='research-and-review-math'>Postgraduate</Nav.Link>
                 </Nav.Item>
               </Nav>
               <Tab.Content className='justify-items-center'>
@@ -63,7 +63,7 @@ const MathTutoring = () => {
                   levels.map((level, index) => {
                     return (
                       <Tab.Pane eventKey={level.index1} key={index}>
-                        <h2>{level.title1}</h2>
+                        <h2 id={level.title1}>{level.title1}</h2>
                         <p>{level.courses}</p>
                       </Tab.Pane>
                     )

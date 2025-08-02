@@ -50,7 +50,7 @@ const OtherServices = () => {
     <section className='services' id='other-services'>
       <Container>
         <Row className='align-items-center'>
-          <h1>Other Services</h1>
+          <h1 id='python'>Other Services</h1>
           <Col xs={6} md={3} xl={3}>
           </Col>
           <Col xs={12} md={6} xl={6}>

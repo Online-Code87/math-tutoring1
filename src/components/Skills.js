@@ -30,7 +30,7 @@ const Skills = () => {
       <Container>
         <Row>
           <Col>
-            <h1>
+            <h1 id='math-tutor'>
               Skills
             </h1>
             <p>
@@ -50,7 +50,7 @@ const Skills = () => {
                     </div>
                   </div>
                   <Carousel.Caption>
-                    <h3>Tutoring</h3>
+                    <h3 id='tutoring'>Tutoring</h3>
                   </Carousel.Caption>
                 </div>
               </Carousel.Item>
@@ -62,7 +62,7 @@ const Skills = () => {
                     </div>
                   </div>
                   <Carousel.Caption>
-                    <h3>Problem Solving</h3>
+                    <h3 id='problem-solving'>Problem Solving</h3>
                   </Carousel.Caption>
                 </div>
               </Carousel.Item>
@@ -74,7 +74,7 @@ const Skills = () => {
                     </div>
                   </div>
                   <Carousel.Caption>
-                    <h3>Website Design and Development</h3>
+                    <h3 id='website-design-and-development'>Website Design and Development</h3>
                   </Carousel.Caption>
                 </div>
               </Carousel.Item>
@@ -86,7 +86,7 @@ const Skills = () => {
                     </div>
                   </div>
                   <Carousel.Caption>
-                    <h3>Coding Languages</h3>
+                    <h3 id='python'>Coding Languages</h3>
                   </Carousel.Caption>
                 </div>
               </Carousel.Item>
@@ -98,7 +98,7 @@ const Skills = () => {
                     </div>
                   </div>
                   <Carousel.Caption>
-                    <h3>Mathematics Software</h3>
+                    <h3 id='maple-tutorial'> Mathematics Software</h3>
                   </Carousel.Caption>
                 </div>
               </Carousel.Item>
