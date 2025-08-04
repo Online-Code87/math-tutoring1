@@ -13,9 +13,9 @@ const Footer = () => {
           <Col>
              <h3>Contact Information:</h3>
              <br/>
-             <p><img src={telegramIcon} alt=''/>Telegram ID: @SelinaMath </p> 
+             <p><img src={telegramIcon} alt='math-tutor-id'/>Telegram ID: @MathTutorSS </p> 
              <br/>
-             <p><img src={gmail} alt=''/> Email Address: mcselina87@gmail.com </p>
+             <p><img src={gmail} alt='Math-tutor-email'/> Email Address: saeedenoori2@gmail.com </p>
           </Col>
         </Row>
       </Container>
