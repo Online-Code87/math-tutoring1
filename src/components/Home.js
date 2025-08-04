@@ -16,7 +16,7 @@ const Home = () => {
                    <a href='#connect'><button onClick={() => console.log('connect')}>Let's connect <ArrowRightCircle size={25}/></button></a>
                 </Col>
                 <Col xs={12} md={6} xl={5}>
-                   <img src={BannerImg} alt='top math turor online' />
+                   <img src={BannerImg} alt='top-math-tutors-online' />
                 </Col>
             </Row>
         </Container>

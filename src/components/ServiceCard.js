@@ -5,7 +5,7 @@ import './../App.css';
 const ServiceCard = ({ImgUrl, title, description}) => {
   return (
     <Card >
-      <Card.Img src={ImgUrl} variant='top' alt='service image'/>
+      <Card.Img src={ImgUrl} variant='top' alt={title}/>
       <Card.Body>
         <Card.Title id={title}>{title}</Card.Title>
         <Card.Text >{description}</Card.Text>
