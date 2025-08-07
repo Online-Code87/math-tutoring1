@@ -9,7 +9,7 @@ const Footer = () => {
     <footer className='footer'>
       <Container >
         <Row>
-          <Col><h3 id='Services'>Services</h3><br/><a href='#math-tutoring'><p id='math tutor'>Tutoring Mathematics</p></a><br/><a href='#other-services' id='website development'><p>Website Development</p></a><br/><a href='#other-services'><p id='maple'>Mathematics Software</p></a></Col>
+          <Col><h3 id='Services'>Services</h3><br/><a href='#online-math-tutoring'><p id='math tutor'>Tutoring Mathematics</p></a><br/><a href='#other-services' id='website development'><p>Website Development</p></a><br/><a href='#other-services'><p id='maple'>Mathematics Software</p></a></Col>
           <Col>
              <h3>Contact Information:</h3>
              <br/>
