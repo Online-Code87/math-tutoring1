@@ -49,7 +49,7 @@ const NavBar=() =>{
                     <Nav className="me-auto">
                         <Nav.Link href="#home" className={activeLink === "Home" ? 'active-navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink(Home)}>Home</Nav.Link>
                         <Nav.Link href="#skills" className={activeLink === 'Skills' ? 'active-navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink(Skills)}>Skills</Nav.Link>
-                        <Nav.Link href="#math-tutoring" className={activeLink === 'MathTutoring' ? 'active-navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink(MathTutoring)}>Math Tutoring</Nav.Link>
+                        <Nav.Link href="#online-math-tutoring" className={activeLink === 'MathTutoring' ? 'active-navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink(MathTutoring)}>Math Tutoring</Nav.Link>
                         <Nav.Link href="#other-services" className={activeLink === 'OtherServices' ? 'active-navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink(OtherServices)}>Other Services</Nav.Link>
                     </Nav>
                     <span className="navbar-text">
