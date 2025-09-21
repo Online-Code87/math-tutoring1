@@ -10,8 +10,8 @@ const Contact = () => {
 
   const handleSubmit = (event) => {
     event.preventDefault();
-    
-    
+
+
     emailjs.sendForm(
       process.env.REACT_APP_EMAILJS_SERVICE_ID,
       process.env.REACT_APP_EMAILJS_TEMPLATE_ID,
@@ -38,9 +38,14 @@ const Contact = () => {
           <h1>Contact Me </h1>
           <Col xs={12} md={6} xl={7}>
             <img src={ContactUs} alt='' />
+            <div class="payment-box">
+              <h3>💳 Payment</h3>
+              <p>I currently accept <strong>USDT (TRC20)</strong> for international payments.</p>
+              <p>PayPal option will be available soon.</p>
+            </div>
           </Col>
           <Col xs={12} md={6} xl={5}>
-            <Form ref={form}  onSubmit={handleSubmit}>
+            <Form ref={form} onSubmit={handleSubmit}>
               <Row>
                 <Col>
                   <Form.Group className='mb-3' as={Col} md="30">
@@ -59,7 +64,7 @@ const Contact = () => {
                 <Col>
                   <Form.Group className='mb-3' as={Col} md="30">
                     <Form.Label>Country</Form.Label>
-                    <Form.Control type='text' name='country' placeholder='Enter your country' required  />
+                    <Form.Control type='text' name='country' placeholder='Enter your country' required />
                   </Form.Group>
                 </Col>
                 <Col>
@@ -75,7 +80,7 @@ const Contact = () => {
               </Form.Group>
               <Form.Group as={Col} controlId="formGridText" className='mb-3'>
                 <Form.Label>Message</Form.Label>
-                <Form.Control rows={8} as="textarea" name='message' placeholder="Leave a message"  />
+                <Form.Control rows={8} as="textarea" name='message' placeholder="Leave a message" />
                 <Form.Text className='form-text'>Your information will not be shared with anyone!</Form.Text>
               </Form.Group>
               <button type="submit">Send</button>
