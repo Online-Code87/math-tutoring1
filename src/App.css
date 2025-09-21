@@ -415,6 +415,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   font-size: 50px;
   font-weight: 700;
   padding: 20px;
+  margin-top: 70px;
 }
 
 .course-levels ul {
@@ -433,7 +434,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 .course-levels h4 {
-  font-size: 30px;
+  font-size: 35px;
   font-weight: 700;
   padding: 20px;
 }
@@ -441,6 +442,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .course-levels ul ol {
   display: flex;
   text-align: left !important;
+  text-justify: left !important;
 }
 
 .course-levels p {
@@ -449,6 +451,29 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   letter-spacing: 0.8px;
   line-height: 1.7em;
   margin: 14px 0 75px 0;
+  font-weight: 700;
+  align-items: left;
+}
+
+.faqs h4 {
+  font-size: 35px;
+  font-weight: 700;
+  padding-bottom: 30px;
+  padding-top: 80px;
+}
+
+.faqs h5 {
+  font-size: 25px;
+  font-weight: 700;
+  padding: 20px;
+}
+
+.faqs p {
+  color: #B8B8B8;
+  font-size: 18px;
+  letter-spacing: 0.8px;
+  line-height: 1.7em;
+  margin: 10px 0 30px 0;
   font-weight: 700;
   align-items: left;
 }

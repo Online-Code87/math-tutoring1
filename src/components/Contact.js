@@ -38,7 +38,7 @@ const Contact = () => {
           <h1>Contact Me </h1>
           <Col xs={12} md={6} xl={7}>
             <img src={ContactUs} alt='' />
-            <div class="payment-box">
+            <div className="payment-box">
               <h3>💳 Payment</h3>
               <p>I currently accept <strong>USDT (TRC20)</strong> for international payments.</p>
               <p>PayPal option will be available soon.</p>
@@ -48,13 +48,13 @@ const Contact = () => {
             <Form ref={form} onSubmit={handleSubmit}>
               <Row>
                 <Col>
-                  <Form.Group className='mb-3' as={Col} md="30">
+                  <Form.Group  as={Col} md="30">
                     <Form.Label>First Name</Form.Label>
                     <Form.Control type='text' name='first' placeholder='Enter first name' required />
                   </Form.Group>
                 </Col>
                 <Col>
-                  <Form.Group className='mb-3' >
+                  <Form.Group  >
                     <Form.Label>Last Name</Form.Label>
                     <Form.Control type='text' name='last' placeholder='Enter last name' required />
                   </Form.Group>
@@ -62,26 +62,26 @@ const Contact = () => {
               </Row>
               <Row>
                 <Col>
-                  <Form.Group className='mb-3' as={Col} md="30">
+                  <Form.Group  as={Col} md="30">
                     <Form.Label>Country</Form.Label>
                     <Form.Control type='text' name='country' placeholder='Enter your country' required />
                   </Form.Group>
                 </Col>
                 <Col>
-                  <Form.Group className='mb-3' >
+                  <Form.Group >
                     <Form.Label>Telegram ID</Form.Label>
                     <Form.Control type='text' name='telegram-id' placeholder='@Name' />
                   </Form.Group>
                 </Col>
               </Row>
-              <Form.Group as={Col} controlId="formGridEmail" className='mb-3'>
+              <Form.Group as={Col} controlId="formGridEmail" >
                 <Form.Label>Email Address</Form.Label>
                 <Form.Control type="email" name='email' placeholder="name@example.com" required />
               </Form.Group>
-              <Form.Group as={Col} controlId="formGridText" className='mb-3'>
+              <Form.Group as={Col} controlId="formGridText" >
                 <Form.Label>Message</Form.Label>
                 <Form.Control rows={8} as="textarea" name='message' placeholder="Leave a message" />
-                <Form.Text className='form-text'>Your information will not be shared with anyone!</Form.Text>
+                <Form.Text>Your information will not be shared with anyone!</Form.Text>
               </Form.Group>
               <button type="submit">Send</button>
             </Form>
