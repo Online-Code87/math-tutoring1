@@ -48,13 +48,13 @@ const Contact = () => {
             <Form ref={form} onSubmit={handleSubmit}>
               <Row>
                 <Col>
-                  <Form.Group  as={Col} md="30">
+                  <Form.Group  as={Col} md="30" className='mb-2'>
                     <Form.Label>First Name</Form.Label>
                     <Form.Control type='text' name='first' placeholder='Enter first name' required />
                   </Form.Group>
                 </Col>
                 <Col>
-                  <Form.Group  >
+                  <Form.Group className='mb-2' >
                     <Form.Label>Last Name</Form.Label>
                     <Form.Control type='text' name='last' placeholder='Enter last name' required />
                   </Form.Group>
@@ -62,23 +62,23 @@ const Contact = () => {
               </Row>
               <Row>
                 <Col>
-                  <Form.Group  as={Col} md="30">
+                  <Form.Group  as={Col} md="30" className='mb-2'>
                     <Form.Label>Country</Form.Label>
                     <Form.Control type='text' name='country' placeholder='Enter your country' required />
                   </Form.Group>
                 </Col>
                 <Col>
-                  <Form.Group >
+                  <Form.Group className='mb-2'>
                     <Form.Label>Telegram ID</Form.Label>
                     <Form.Control type='text' name='telegram-id' placeholder='@Name' />
                   </Form.Group>
                 </Col>
               </Row>
-              <Form.Group as={Col} controlId="formGridEmail" >
+              <Form.Group as={Col} controlId="formGridEmail" className='mb-2' >
                 <Form.Label>Email Address</Form.Label>
                 <Form.Control type="email" name='email' placeholder="name@example.com" required />
               </Form.Group>
-              <Form.Group as={Col} controlId="formGridText" >
+              <Form.Group as={Col} controlId="formGridText" className='mb-3'>
                 <Form.Label>Message</Form.Label>
                 <Form.Control rows={8} as="textarea" name='message' placeholder="Leave a message" />
                 <Form.Text>Your information will not be shared with anyone!</Form.Text>

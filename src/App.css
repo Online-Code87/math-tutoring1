@@ -118,7 +118,7 @@ nav.navbar .navbar-nav .nav-link.navbar-link {
   color: #fff !important;
   letter-spacing: 0.8px;
   padding: 0 25px;
-  font-size: 18px;
+  font-size: 20px;
   opacity: 0.75;
 }
 
@@ -137,7 +137,7 @@ span.navbar-text {
   color: #fff;
   border: 1px solid #fff;
   padding: 18px 34px;
-  font-size: 18px;
+  font-size: 20px;
   margin-left: 18px;
   position: relative;
   background-color: transparent;
@@ -216,7 +216,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 /*banner*/
 .banner {
   margin-top: 0;
-  padding: 260px 0 180px 0;
+  padding: 230px 0 80px 0;
   background-position: top center;
   background-size: 300px 100px;
   background-repeat: no-repeat;
@@ -245,7 +245,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 .banner p {
   color: #B8B8B8;
-  font-size: 18px;
+  font-size: 20px;
   letter-spacing: 0.8px;
   line-height: 1.5em;
   width: 96%;
@@ -254,12 +254,12 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .banner button {
   color: #fff;
   font-weight: 700;
-  font-size: 20px;
-  margin-top: 60px;
+  font-size: 25px;
+  margin-top: 30px;
+  margin-bottom: 30px;
   letter-spacing: 0.8px;
-  display: flex;
   align-items: center;
-  background: linear-gradient(90.21deg, rgba(73, 131, 98, 0.8), rgba(6, 101, 54, 0.5));
+  background: linear-gradient(90.21deg, rgba(1, 63, 28, 0.8), rgba(1, 46, 24, 0.5));
   border-radius: 25px;
   padding: 10px 15px;
 }
@@ -314,7 +314,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 .skills p {
   color: #B8B8B8;
-  font-size: 18px;
+  font-size: 20px;
   letter-spacing: 0.8px;
   line-height: 1.7em;
   margin: 14px 0 75px 0;
@@ -420,12 +420,13 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 .course-levels ul {
   color: #B8B8B8;
-  font-size: 18px;
+  font-size: 20px;
   letter-spacing: 0.8px;
   line-height: 1.7em;
   margin: 14px 0 75px 0;
   font-weight: 700;
   justify-content: left !important;
+  text-align: left !important;
 }
 
 .course-levels ul li {
@@ -447,7 +448,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 .course-levels p {
   color: #B8B8B8;
-  font-size: 18px;
+  font-size: 20px;
   letter-spacing: 0.8px;
   line-height: 1.7em;
   margin: 14px 0 75px 0;
@@ -470,7 +471,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 .faqs p {
   color: #B8B8B8;
-  font-size: 18px;
+  font-size: 20px;
   letter-spacing: 0.8px;
   line-height: 1.7em;
   margin: 10px 0 30px 0;
@@ -627,8 +628,8 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 .contact {
-  margin: 30px 30px;
-  padding-top: 60px ;
+  margin: 30px 10px;
+  padding-top: 60px;
   border-radius: 40px;
   padding-right: 30px;
   padding-left: 30px;
@@ -636,7 +637,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 .contact h1 {
   font-size: 50px;
-  padding-top: 20px;
+  padding-top: 60px;
   font-weight: 700;
   padding-bottom: 15px;
 }
@@ -645,7 +646,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   width: 120px;
   height: 120px;
   padding-bottom: 50px;
-  padding-top: 15px;
+  padding-top: 10px;
   padding-bottom: 20px;
   margin-top: 10px;
 }
@@ -657,7 +658,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   font-weight: 700;
   border: 1px solid #fff;
   padding: 14px 30px;
-  font-size: 18px;
+  font-size: 20px;
   margin-left: 18px;
   position: relative;
   transition: 0.3 ease-in-out;
