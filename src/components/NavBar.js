@@ -6,6 +6,7 @@ import Home from './Home';
 import MathTutoring from './MathTutoring';
 import Skills from './Skills';
 import OtherServices from './OtherServices';
+import Pricing from './Pricing';
 
 
 
@@ -51,6 +52,7 @@ const NavBar=() =>{
                         <Nav.Link href="#skills" className={activeLink === 'Skills' ? 'active-navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink(Skills)}>Skills</Nav.Link>
                         <Nav.Link href="#online-math-tutoring" className={activeLink === 'MathTutoring' ? 'active-navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink(MathTutoring)}>Math Tutoring</Nav.Link>
                         <Nav.Link href="#other-services" className={activeLink === 'OtherServices' ? 'active-navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink(OtherServices)}>Other Services</Nav.Link>
+                        <Nav.Link href="#pricing" className={activeLink === 'Pricing' ? 'active-navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink(Pricing)}>Pricing</Nav.Link>
                     </Nav>
                     <span className="navbar-text">
                         <a href='#connect'><button className="vvd" onClick={()=>console.log('connect')}> <span>Let's Connect</span></button></a>

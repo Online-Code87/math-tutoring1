@@ -9,6 +9,7 @@ import OtherServices from './components/OtherServices';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 import { BrowserRouter } from 'react-router-dom';
+import Pricing from './components/Pricing';
 
 
 
@@ -21,6 +22,7 @@ function App() {
         <Skills />
         <MathTutoring />
         <OtherServices />
+        <Pricing/>
         <Contact />
         <Footer />
       </BrowserRouter>

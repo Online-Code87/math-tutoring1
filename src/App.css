@@ -580,10 +580,10 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .services {
   justify-content: center !important;
   padding-top: 50px;
+  padding-bottom: 60px;
   margin-top: 70px;
+  padding: 20px 20px;
 }
-
-
 
 
 .service-slider {
@@ -616,15 +616,126 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   font-weight: 400;
 }
 
-.services {
-  padding: 20px 20px;
-}
 
 .services h1 {
   font-size: 50px;
   padding-top: 10px;
   font-weight: 700;
   padding-bottom: 30px;
+}
+
+.pricing {
+  padding-top: 50px;
+  margin-top: 60px;
+  padding: 20px 20px;
+  margin-top: 70px;
+}
+
+.pricing h1 {
+  font-size: 50px;
+  padding-top: 60px;
+  font-weight: 700;
+  padding-bottom: 30px;
+}
+
+.pricing table {
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+  border-collapse: collapse;
+  background-color: #1a1a1a;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.pricing th,
+.pricing td {
+  padding: 15px;
+  border: 3px solid #444;
+  text-align: center;
+  color: #B8B8B8;
+  font-size: 20px;
+  letter-spacing: 0.8px;
+  line-height: 1.7em;
+  margin: 10px 0 30px 0;
+  font-weight: 700;
+  align-items: left;
+}
+
+.pricing th {
+  background-color:  #161616;
+  color: #2e7d32;
+  font-size: 25px;
+}
+
+.pricing tr:nth-child(even) {
+  background-color: #161616;
+}
+
+.pricing .price {
+  font-size: 1.2em;
+  font-weight: bold;
+  color: #2e7d32;
+}
+
+.book-now-btn {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 12px 24px;
+  background-color: #09510c;
+  text-decoration: none;
+  border-radius: 10px;
+  transition: 0.3s ease;
+  font-size: 25px;
+  color: #B8B8B8;
+  letter-spacing: 0.8px;
+  font-weight: 700;
+}
+
+.book-now-btn:hover {
+  background-color: #1b5e20;
+}
+
+/* ===== Responsive Pricing Tables ===== */
+@media (max-width: 768px) {
+  .pricing table,
+  .pricing table thead,
+  .pricing table tbody,
+  .pricing table th,
+  .pricing table td,
+  .pricing table tr {
+    display: block;
+    width: 100%;
+  }
+
+  .pricing table thead {
+    display: none; 
+  }
+
+  .pricing table tr {
+    margin-bottom: 15px;
+    border: 1px solid #044719;
+    border-radius: 15px;
+    padding: 10px;
+  }
+
+  .pricing table td {
+    padding: 8px 10px;
+    text-align: center;
+    position: relative;
+  }
+
+  .pricing table td::before {
+    content: attr(data-label);
+    font-weight: bold;
+    color: #2e7d32;
+    display: block;
+    margin-bottom: 4px;
+  }
+
+  .book-now-btn {
+    text-align: center;
+  }
 }
 
 .contact {
