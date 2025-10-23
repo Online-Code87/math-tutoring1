@@ -43,12 +43,18 @@ const Contact = () => {
               <p>I currently accept <strong>USDT (TRC20)</strong> for international payments.</p>
               <p>PayPal option will be available soon.</p>
             </div>
+            <div className='availability'>
+              <p>
+                Wherever you are, you can learn with me online! Sessions are held on Zoom or Google Meet, etc. — message me to get started.
+              </p>
+
+            </div>
           </Col>
           <Col xs={12} md={6} xl={5}>
             <Form ref={form} onSubmit={handleSubmit}>
               <Row>
                 <Col>
-                  <Form.Group  as={Col} md="30" className='mb-2'>
+                  <Form.Group as={Col} md="30" className='mb-2'>
                     <Form.Label>First Name</Form.Label>
                     <Form.Control type='text' name='first' placeholder='Enter first name' required />
                   </Form.Group>
@@ -62,7 +68,7 @@ const Contact = () => {
               </Row>
               <Row>
                 <Col>
-                  <Form.Group  as={Col} md="30" className='mb-2'>
+                  <Form.Group as={Col} md="30" className='mb-2'>
                     <Form.Label>Country</Form.Label>
                     <Form.Control type='text' name='country' placeholder='Enter your country' required />
                   </Form.Group>
@@ -70,7 +76,7 @@ const Contact = () => {
                 <Col>
                   <Form.Group className='mb-2'>
                     <Form.Label>Telegram ID</Form.Label>
-                    <Form.Control type='text' name='telegram-id' placeholder='@Name' />
+                    <Form.Control type='text' name='telegram-id' placeholder='Optional' />
                   </Form.Group>
                 </Col>
               </Row>

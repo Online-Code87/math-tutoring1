@@ -74,6 +74,14 @@ const MathTutoring = () => {
               </Tab.Container>
             </Col>
           </Row>
+          <Row>
+              <p className='availability' id='math-tutoring-worldwide'>
+                Available worldwide via Zoom or Google Meet, or similar platforms — book your first personalized session today!
+              </p>
+              <div>
+                <a href="#connect" ><button className="book-now-btn" onClick={() => console.log('connect')}>Book Now </button></a>
+              </div>
+          </Row>
         </Container>
       </section>
       <section className='faqs'>
