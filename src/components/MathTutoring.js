@@ -105,6 +105,18 @@ const MathTutoring = () => {
                 <h5 >What payment methods do you accept?</h5>
                 <p>I currently accept cryptocurrency (USDT, TRC20). PayPal will be available soon.</p>
               </div>
+              <div>
+                <h5>How does the first session work?</h5>
+                <p>The first session focuses on understanding your level, goals, and the topics you need help with. I will review your course materials, explain the main concepts, and create a personalized study plan for you. You will also see my teaching style and how we will work together in future sessions.</p>
+              </div>
+              <div>
+                <h5>Do you offer help with homework and exam preparation?</h5>
+                <p>Yes. I provide step-by-step explanations for homework questions, help you prepare for quizzes and exams, and make sure you fully understand the concepts instead of memorizing formulas. My goal is to help you achieve high grades with confidence.</p>
+              </div>
+              <div>
+                <h5>Do you teach university-level mathematics?</h5>
+                <p>Yes. I teach both high-school and university-level courses, including Algebra, Calculus, Linear Algebra, Discrete Mathematics, Geometry, Mathematics software, e.g. SageMath and Maple, and so on. I can help with assignments, theory, proofs, and computational tools. Sessions are fully customized based on your needs.</p>
+              </div>
             </Col>
           </Row>
         </Container>
