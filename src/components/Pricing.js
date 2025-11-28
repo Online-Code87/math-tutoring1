@@ -20,19 +20,19 @@ function Pricing() {
                             <tr>
                                 <td data-label="Package">Single Session</td>
                                 <td data-label="Duration">60 minutes</td>
-                                <td data-label="Price" className="price">$20</td>
+                                <td data-label="Price" className="price">$25</td>
                                 <td data-label="Notes">Perfect for quick help with homework or concepts</td>
                             </tr>
                             <tr>
                                 <td data-label="Package">Weekly Plan</td>
                                 <td data-label="Duration">2 × 60 minutes</td>
-                                <td data-label="Price" className="price">$35</td>
+                                <td data-label="Price" className="price">$45</td>
                                 <td data-label="Notes">Best for consistent progress</td>
                             </tr>
                             <tr>
                                 <td data-label="Package">Monthly Package</td>
                                 <td data-label="Duration">8 × 60 minutes</td>
-                                <td data-label="Price" className="price">$120</td>
+                                <td data-label="Price" className="price">$160</td>
                                 <td data-label="Notes">Discounted for regular learners</td>
                             </tr>
                             <tr>

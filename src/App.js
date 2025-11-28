@@ -21,8 +21,8 @@ function App() {
         <Home />
         <Skills />
         <MathTutoring />
-        <OtherServices />
         <Pricing/>
+        <OtherServices />
         <Contact />
         <Footer />
       </BrowserRouter>
