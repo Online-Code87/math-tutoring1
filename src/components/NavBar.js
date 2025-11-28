@@ -12,13 +12,13 @@ import Pricing from './Pricing';
 
 
 
-const NavBar=() =>{
+const NavBar = () => {
     const [activeLink, setActiveLink] = useState('home');
     const [scrolled, setScrolled] = useState(false);
 
 
 
-    useEffect(()=>{
+    useEffect(() => {
         const onScroll = (e) => {
             if (window.scrollY > 50) {
                 setScrolled(true);
@@ -31,17 +31,17 @@ const NavBar=() =>{
         window.addEventListener("scroll", onScroll);
 
         return () => window.removeEventListener("scroll", onScroll);
-    },[])
+    }, [])
 
     const onUpdateActiveLink = (value) => {
         setActiveLink(value);
     }
 
     return (
-        <Navbar expand="lg" className={scrolled ? "scrolled": ""}>
+        <Navbar expand="lg" className={scrolled ? "scrolled" : ""}>
             <Container>
                 <Navbar.Brand href="/Home">
-                    <img src={logo} className='logo-nav' alt="Logo"/>
+                    <img src={logo} className='logo-nav' alt="Logo" />
                 </Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav">
                     <span className="navbar-toggler-icon"></span>
@@ -51,11 +51,11 @@ const NavBar=() =>{
                         <Nav.Link href="#home" className={activeLink === "Home" ? 'active-navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink(Home)}>Home</Nav.Link>
                         <Nav.Link href="#skills" className={activeLink === 'Skills' ? 'active-navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink(Skills)}>Skills</Nav.Link>
                         <Nav.Link href="#online-math-tutoring" className={activeLink === 'MathTutoring' ? 'active-navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink(MathTutoring)}>Math Tutoring</Nav.Link>
-                        <Nav.Link href="#other-services" className={activeLink === 'OtherServices' ? 'active-navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink(OtherServices)}>Other Services</Nav.Link>
                         <Nav.Link href="#pricing" className={activeLink === 'Pricing' ? 'active-navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink(Pricing)}>Pricing</Nav.Link>
+                        <Nav.Link href="#other-services" className={activeLink === 'OtherServices' ? 'active-navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink(OtherServices)}>Other Services</Nav.Link>
                     </Nav>
                     <span className="navbar-text">
-                        <a href='#connect'><button className="vvd" onClick={()=>console.log('connect')}> <span>Let's Connect</span></button></a>
+                        <a href='#connect'><button className="vvd" onClick={() => console.log('connect')}> <span>Let's Connect</span></button></a>
                     </span>
                 </Navbar.Collapse>
             </Container>
