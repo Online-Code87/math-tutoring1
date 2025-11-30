@@ -115,7 +115,7 @@ const MathTutoring = () => {
               </div>
               <div>
                 <h5>Do you teach university-level mathematics?</h5>
-                <p>Yes. I teach both high-school and university-level courses, including Algebra, Calculus, Linear Algebra, Discrete Mathematics, Geometry, Mathematics software, e.g. SageMath and Maple, and so on. I can help with assignments, theory, proofs, and computational tools. Sessions are fully customized based on your needs.</p>
+                <p>Yes. I teach both high-school and university-level courses, including Algebra, Calculus, Linear Algebra, Discrete Mathematics, Geometry, Statistics and Probability, Mathematics software, e.g. SageMath and Maple, and so on. I can help with assignments, theory, proofs, and computational tools. Sessions are fully customized based on your needs.</p>
               </div>
             </Col>
           </Row>
